@@ -16,7 +16,7 @@ def send_message(player, log_status, time_of_event):
 
 # Function that reads the Minecraft server logs
 def read_logs():
-    with open('/opt/forge/logs/latest.log', 'r') as log_file:
+    with open('/path/to/your/logs', 'r') as log_file:
         for line in log_file:
             if 'logged in' in line:
                 try:
