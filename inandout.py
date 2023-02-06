@@ -3,7 +3,7 @@ import time
 import re
 
 # Discord webhook URL
-WEBHOOK_URL = 'https://discord.com/api/webhooks/1070608561568231498/bnodotPWDcGiv_3q-i1lcUoQD9WJ5z0e-h9GOVnpLFj05kHVO3E2ztMGY-nkOX7vi8Sx'
+WEBHOOK_URL = 'your-web-hook-url'
 
 # Dictionary to store the events that have already been sent to Discord
 sent_events = {}
